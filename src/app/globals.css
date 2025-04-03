@@ -9,11 +9,7 @@
   --error-color: #dc3545;
   --max-width: 1200px;
   --border-radius: 8px;
-  
-  /* Definición mejorada de fuentes */
-  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-montserrat: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-family: var(--font-inter);
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 * {
@@ -48,13 +44,11 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   line-height: 1.2;
-  font-family: var(--font-montserrat);
-  font-weight: 700;
+  font-family: var(--font-family);
 }
 
 p {
   margin-bottom: 1rem;
-  font-family: var(--font-inter);
 }
 
 .container {
@@ -75,7 +69,6 @@ p {
   cursor: pointer;
   border: none;
   font-size: 1rem;
-  font-family: var(--font-inter);
   transition: background-color 0.3s;
   text-decoration: none;
 }
@@ -102,9 +95,7 @@ p {
 .section-title {
   text-align: center;
   margin-bottom: 3rem;
-  font-family: var(--font-montserrat);
   font-size: 2rem;
-  font-weight: 700;
 }
 
 /* Estilos específicos para dispositivos móviles */
@@ -117,24 +108,8 @@ p {
     font-size: 16px; /* Asegura un tamaño de fuente consistente en móviles */
   }
   
-  h1 {
-    font-size: 1.8rem;
+  /* Forzar la fuente en todos los elementos para dispositivos móviles */
+  h1, h2, h3, h4, h5, h6, p, span, div, a, button, input, textarea, select {
+    font-family: var(--font-family) !important;
   }
-  
-  h2 {
-    font-size: 1.5rem;
-  }
-  
-  h3 {
-    font-size: 1.2rem;
-  }
-}
-
-/* Clases de utilidad para fuentes */
-.font-montserrat {
-  font-family: var(--font-montserrat) !important;
-}
-
-.font-inter {
-  font-family: var(--font-inter) !important;
 }
