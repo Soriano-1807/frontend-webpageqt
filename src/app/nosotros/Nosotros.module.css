@@ -1,0 +1,378 @@
+.heroSection {
+    background-color: #f0f8ff;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .heroDescription {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .historySection {
+    padding: 5rem 0;
+    background-color: white;
+  }
+  
+  .historyContent {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .historyText {
+    flex: 1;
+  }
+  
+  .historyImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+  }
+  
+  .sectionTitle:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #0056b3;
+  }
+  
+  .paragraph {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+  
+  .imageRounded {
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .valuesSection {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .valuesSection .sectionTitle:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .valuesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .valueCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .valueCard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .valueIconContainer {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .valueTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .valueDescription {
+    color: #666;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+  
+  .whyChooseUsSection {
+    padding: 5rem 0;
+    background-color: white;
+  }
+  
+  .reasonsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .reasonCard {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .reasonCard:hover {
+    background-color: #0056b3;
+  }
+  
+  .reasonCard:hover .reasonTitle,
+  .reasonCard:hover .reasonDescription {
+    color: white;
+  }
+  
+  .reasonCard:hover .reasonIconContainer {
+    background-color: white;
+  }
+  
+  .reasonIconContainer {
+    width: 70px;
+    height: 70px;
+    background-color: #f0f7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reasonTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .reasonDescription {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    transition: color 0.3s ease;
+  }
+  
+  .teamSection {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .teamCard {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .teamCard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .teamImageContainer {
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .teamImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .teamCard:hover .teamImage {
+    transform: scale(1.1);
+  }
+  
+  .teamInfo {
+    padding: 1.5rem;
+  }
+  
+  .teamName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .teamRole {
+    color: #0056b3;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .teamDescription {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .ctaSection {
+    background-color: #0056b3;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .ctaTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .ctaDescription {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+
+  .ctaButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .ctaButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0056b3;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+  .ctaButton:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+
+  .ctaButtonSecondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 768px) {
+    .historyContent {
+      flex-direction: row;
+    }
+  
+    .sectionTitle {
+      text-align: left;
+    }
+  
+    .valuesSection .sectionTitle {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .teamGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .valuesGrid,
+    .reasonsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .teamGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .historyContent {
+      flex-direction: column;
+    }
+  
+    .valuesGrid,
+    .reasonsGrid {
+      grid-template-columns: 1fr;
+    }
+  
+    .teamGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .sectionTitle {
+      text-align: center;
+    }
+  
+    .sectionTitle:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .teamGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  

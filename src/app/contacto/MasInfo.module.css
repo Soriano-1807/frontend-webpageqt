@@ -1,0 +1,599 @@
+/* Estilos para la sección hero */
+.heroSection {
+  background-color: #f0f8ff;
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 86, 179, 0.05) 0%, rgba(0, 86, 179, 0.1) 100%);
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Estilos para la sección de información */
+.infoSection {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+/* Tarjetas de información */
+.infoCard {
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 3rem;
+}
+
+.infoCardContent {
+  display: flex;
+  padding: 2.5rem;
+  gap: 3rem;
+}
+
+.infoCardTextContent {
+  flex: 1;
+}
+
+.infoCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.infoCardIcon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #f0f7ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: #0056b3;
+}
+
+.infoCardTitle {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  position: relative;
+}
+
+.infoCardDescription {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.infoCardDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.infoCardDetail {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.infoCardDetailLabel {
+  font-weight: 600;
+  color: #333;
+  min-width: 100px;
+}
+
+.infoCardDetailValue {
+  color: #0056b3;
+}
+
+.infoCardImageWrapper {
+  flex-shrink: 0;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+
+.infoCardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.infoCardImageWrapper:hover .infoCardImage {
+  transform: scale(1.05);
+}
+
+.imageCaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.mapWrapper {
+  flex-shrink: 0;
+  width: 350px;
+  height: 300px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Sección de especialidades */
+.specialtiesSection {
+  margin-bottom: 4rem;
+  padding: 3rem;
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.sectionTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #0056b3;
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.specialtiesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.specialtyCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.specialtyCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.specialtyIconContainer {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  background-color: #f0f7ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specialtyIcon {
+  width: 35px;
+  height: 35px;
+  color: #0056b3;
+}
+
+.specialtyContent {
+  flex: 1;
+}
+
+.specialtyTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.specialtyDescription {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.specialtyImageGallery {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.galleryItem {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.galleryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.galleryItem:hover .galleryImage {
+  transform: scale(1.05);
+}
+
+.galleryCaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Sección de productos */
+.productsSection {
+  margin-bottom: 4rem;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.productsLayout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.productsTextContent {
+  flex: 1;
+}
+
+.productsSectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.productsSectionTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #0056b3;
+}
+
+.productsSectionDescription {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.productsImageContainer {
+  flex-shrink: 0;
+  width: 600px;
+  height: 630px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+
+.productsImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.productsImageContainer:hover .productsImage {
+  transform: scale(1.05);
+}
+
+.productsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.productItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.productItem:hover {
+  background-color: #f0f7ff;
+}
+
+.productItemIcon {
+  width: 20px;
+  height: 20px;
+  color: #0056b3;
+  flex-shrink: 0;
+}
+
+.productsNote {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  padding: 1.5rem;
+  background-color: #f0f7ff;
+  border-left: 4px solid #0056b3;
+  border-radius: 0 8px 8px 0;
+}
+
+/* CTA Section */
+.ctaSection {
+  background-color: #0056b3;
+  color: white;
+  padding: 3rem;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.ctaTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.ctaDescription {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ctaButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #0056b3;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.ctaButton:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.ctaButtonWhatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.ctaButtonWhatsapp:hover {
+  background-color: #22c55e;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .infoCardContent {
+    flex-direction: column;
+  }
+
+  .infoCardImageWrapper,
+  .mapWrapper,
+  .productsImageContainer {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .specialtyImageGallery {
+    gap: 1.5rem;
+  }
+
+  .galleryItem {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .productsLayout {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .specialtiesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .productsList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .infoCardHeader {
+    padding: 0;
+  }
+
+  .infoCardContent {
+    padding: 1.5rem;
+  }
+
+  .specialtiesSection,
+  .productsSection {
+    padding: 2rem;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ctaButton,
+  .ctaButtonWhatsapp {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroSection {
+    padding: 3rem 0;
+  }
+
+  .infoSection {
+    padding: 3rem 0;
+  }
+
+  .infoCardHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .infoCardTitle {
+    font-size: 1.5rem;
+  }
+
+  .productsSectionTitle {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .productsSectionTitle::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .productsSectionDescription {
+    text-align: center;
+  }
+
+  .specialtyCard {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
