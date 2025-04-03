@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Image from "next/image"
-import Link from "next/link"
-import { Clock, MapPin, Car, Heart, Users, Accessibility, ShoppingBag, MessageCircle, PawPrint } from "lucide-react"
+import { Clock, MapPin, Heart, Users, Accessibility, ShoppingBag, MessageCircle, PawPrint } from "lucide-react"
 import styles from "./MasInfo.module.css"
 
 export const metadata: Metadata = {

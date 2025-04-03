@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { MessageCircle, Calendar, Clock } from "lucide-react"
+import { MessageCircle, Clock } from "lucide-react"
 import styles from "./Servicios.module.css"
 
 export const metadata: Metadata = {

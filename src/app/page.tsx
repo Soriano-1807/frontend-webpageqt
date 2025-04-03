@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import styles from "./Home.module.css"
-import { MessageCircle, Clock, ArrowRight, Star, Shield, Award, ChevronLeft, ChevronRight } from "lucide-react"
+import { MessageCircle, Clock, Star, Shield, Award, ChevronLeft, ChevronRight } from "lucide-react"
 
 export default function Home() {
   // Estado para el carrusel de testimonios

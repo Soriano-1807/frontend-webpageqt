@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
-import { Users, Award, Clock, Calendar, Star, Shield, Heart, MapPin, MessageCircle} from "lucide-react"
+import { Users, Award, Clock, Star, Shield, Heart, MessageCircle} from "lucide-react"
 import styles from "./Nosotros.module.css"
 
 export const metadata: Metadata = {
