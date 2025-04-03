@@ -95,7 +95,7 @@ const manicuraServices = [
     title: "Retiro de Esmalte Semipermanente",
     description:
       "Eliminación profesional y segura del esmalte semipermanente, protegiendo la salud de las uñas naturales.",
-    image: "/images/servicios/retiroesmalte.jpg",
+    image: "/images/servicios/retiroesmalte.JPG",
   },
 ]
 

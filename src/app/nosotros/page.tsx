@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: "Rafael Meza",
     role: "Quiropedista",
-    image: "/images/nosotros/meza3.jpg",
+    image: "/images/nosotros/meza3.JPG",
   },
   {
     name: "Luis Mora",
