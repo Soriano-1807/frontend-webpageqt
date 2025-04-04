@@ -17,8 +17,11 @@ export const metadata: Metadata = {
   description: 'Centro especializado en quiropedia, podología estética y tratamientos para el bienestar de tus pies en Caracas. Agenda tu cita hoy.',
   keywords: 'quiropedia, podología, cuidado de pies, Caracas, tratamientos podológicos, salud de pies',
   icons: {
-    icon: '/favicon.ico', // Añade esta línea para el favicon
-    apple: '/apple-icon.png', // Opcional: para dispositivos Apple
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
   },
 };
 
