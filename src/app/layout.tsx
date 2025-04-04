@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: 'Quiropedistas Tamanaco - Especialistas en el cuidado de tus pies',
   description: 'Centro especializado en quiropedia, podología estética y tratamientos para el bienestar de tus pies en Caracas. Agenda tu cita hoy.',
   keywords: 'quiropedia, podología, cuidado de pies, Caracas, tratamientos podológicos, salud de pies',
+  icons: {
+    icon: '/favicon.ico', // Añade esta línea para el favicon
+    apple: '/apple-icon.png', // Opcional: para dispositivos Apple
+  },
 };
 
 export default function RootLayout({
