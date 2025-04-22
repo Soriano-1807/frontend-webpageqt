@@ -23,6 +23,9 @@ export const metadata: Metadata = {
     ],
     apple: { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
   },
+  alternates: { // Añadido - URL canónica
+    canonical: "https://quiropedistastamanaco.com",
+  },
 };
 
 export default function RootLayout({
