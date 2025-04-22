@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Información Adicional | Quiropedistas Tamanaco",
   description:
     "Información importante sobre nuestros servicios, ubicación, políticas de atención y especialidades en Quiropedistas Tamanaco.",
+    alternates: {
+      canonical: "https://quiropedistastamanaco.com/contacto",
+    },
 }
 
 export default function InformacionAdicionalPage() {

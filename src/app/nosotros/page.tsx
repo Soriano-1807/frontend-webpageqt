@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Sobre Nosotros | Quiropedistas Tamanaco",
   description:
     "Conoce a nuestro equipo de especialistas en quiropedia y podología en Caracas. Profesionales con amplia experiencia en el cuidado de tus pies.",
+    alternates: {
+      canonical: "https://quiropedistastamanaco.com/nosotros",
+    },
 }
 
 // Definimos los miembros del equipo

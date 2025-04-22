@@ -33,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={outfit.variable}>
       <head>
+        <link rel="canonical" href="https://www.quiropedistastamanaco.com/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="google-site-verification" content="eu7Xxycw4hdZCeqDI2laklmufEtk4_hW17Qn4LisR4U" />
       </head>

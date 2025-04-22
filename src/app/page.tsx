@@ -1,10 +1,20 @@
 "use client"
 
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { useState, useEffect } from "react"
 import styles from "./Home.module.css"
 import { MessageCircle, Clock, Star, Shield, Award, ChevronLeft, ChevronRight } from "lucide-react"
+
+export const metadata: Metadata = {
+  title: "Quiropedistas Tamanaco - Especialistas en el cuidado de tus pies en Caracas",
+  description:
+    "Servicios profesionales de quiropedia, podología estética y tratamientos para el bienestar de tus pies en Caracas.",
+  alternates: {
+    canonical: "https://quiropedistastamanaco.com",
+  },
+}
 
 export default function Home() {
   // Estado para el carrusel de testimonios

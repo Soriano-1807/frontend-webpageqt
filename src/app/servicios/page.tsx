@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Servicios de Quiropedia y Podología | Quiropedistas Tamanaco",
   description:
     "Conoce nuestros servicios especializados en quiropedia, podología estética y tratamientos para el bienestar de tus pies en Caracas.",
+    alternates: {
+      canonical: "https://quiropedistastamanaco.com/servicios",
+    },
 }
 
 // Servicios de quiropedia y tratamientos
