@@ -56,7 +56,7 @@ const teamMembers = [
     image: "/images/nosotros/salcedo1.jpg",
   },
   {
-    name: "Deibys Rodríguez",
+    name: "Deybis Rodríguez",
     role: "Quiropedista",
     image: "/images/nosotros/QuiropedistaRodríguez.jpg",
   },
