@@ -56,6 +56,11 @@ const teamMembers = [
     image: "/images/nosotros/salcedo1.jpg",
   },
   {
+    name: "Deibys Rodríguez",
+    role: "Quiropedista",
+    image: "/images/nosotros/QuiropedistaRodríguez.jpg",
+  },
+  {
     name: "Carmen Barrios",
     role: "Coordinadora de Operaciones",
     image: "/images/nosotros/carmen.jpg",
