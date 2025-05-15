@@ -20,48 +20,48 @@ const quiropediaServices = [
     title: "Quiropedia Clínica",
     description:
       "Cuidado completo y tratamiento de los pies. Su objetivo es mantener los pies en óptimas condiciones, tratando los problemas comunes y otras alteraciones que pueden provocar dolor.",
-    image: "/images/servicios/quiropedia1.jpg",
+    image: "/images/servicios/ServicioQuiropedia.jpg",
   },
   {
     id: "laser",
     title: "Láser",
     description:
       "Tratamiento con láser para la eliminación de onicomicosis (hongos en uñas) y verrugas. Ofreciendo resultados precisos y no invasivos.",
-    image: "/images/servicios/laser5.jpg",
+    image: "/images/servicios/TratamientoLaserHongos.jpg",
   },
   {
     id: "tratamiento-onicocriptosis",
     title: "Tratamiento de Onicocriptosis",
     description: "Tratamiento para uñas encarnadas, elimina el dolor, la infección y la inflamación.",
-    image: "/images/servicios/onicocriptosislike.jpg",
+    image: "/images/servicios/TratamientoUñaEncarnada.jpg",
   },
   {
     id: "tratamiento-verruga",
     title: "Tratamiento de Verruga",
     description:
       "Eliminación efectiva de verrugas plantares y ungueales, utilizando técnicas especializadas.",
-    image: "/images/servicios/verruga.jpg",
+    image: "/images/servicios/TratamientoVerruga.jpg",
   },
   {
     id: "quiropedia-onicogrifosis",
     title: "Quiropedia Clínica con Eliminación de Onicogrifosis",
     description:
       "Tratamiento combinado que incluye quiropedia clínica y eliminación de uñas engrosadas y deformadas (onicogrifosis).",
-    image: "/images/servicios/onicogrifosisServicios.jpg",
+    image: "/images/servicios/ServicioOnicogrifosis.jpg",
   },
   {
     id: "quiropedia-infrarrojos",
     title: "Quiropedia Clínica con Infrarrojos",
     description:
       "Combinación de quiropedia clínica con terapia de infrarrojos para mejorar la circulación y aliviar dolores musculares y articulares.",
-    image: "/images/servicios/infra2.jpg",
+    image: "/images/servicios/QuiropediaConInfrarrojos.jpg",
   },
   {
     id: "pediluvio",
     title: "Pediluvio",
     description:
       "Desintoxicación iónica. Elimina toxinas y desechos acumulados en el cuerpo a través de los pies.",
-    image: "/images/servicios/pediluvioferrraaaaaaannn.jpg"
+    image: "/images/servicios/pediluvio.jpg"
   },
 ]
 
@@ -157,7 +157,7 @@ export default function ServiciosPage() {
             </div>
             <div className={styles.hydrotherapyImage}>
               <Image
-                src="/images/servicios/hidroterapia3.jpg"
+                src="/images/servicios/hidroterapia.jpg"
                 alt="Hidroterapia para pies"
                 width={600}
                 height={400}

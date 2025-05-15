@@ -54,29 +54,29 @@ export default function Home() {
       id: "onicogrifosis",
       title: "Onicogrifosis",
       description: "Tratamiento efectivo para uñas engrosadas y deformadas.",
-      beforeImage: "/images/antes-despues/onicogrifosisAntes.JPG",
-      afterImage: "/images/antes-despues/onicogrifosisDespues.jpg",
+      beforeImage: "/images/antes-despues/UñasEngrosadasPiesAntes.JPG",
+      afterImage: "/images/antes-despues/UñasEngrosadasPiesDespués.jpg",
     },
     {
       id: "verrugas",
       title: "Verrugas",
       description: "Eliminación de verrugas plantares y ungueales.",
-      beforeImage: "/images/antes-despues/verruga10.jpeg",
-      afterImage: "/images/antes-despues/verruga8.jpeg",
+      beforeImage: "/images/antes-despues/VerrugaPie.jpeg",
+      afterImage: "/images/antes-despues/VerrugaPieCurada.jpeg",
     },
     {
       id: "callos",
       title: "Callosidades",
       description: "Tratamiento para eliminar callos y durezas, aliviando el dolor al caminar.",
-      beforeImage: "/images/antes-despues/callossupreme2.jpg",
-      afterImage: "/images/antes-despues/callossupremecurados1.jpg",
+      beforeImage: "/images/antes-despues/CalloAntes.jpg",
+      afterImage: "/images/antes-despues/CallosCurados.jpg",
     },
     {
       id: "onicocriptosis",
       title: "Onicocriptosis",
       description: "Solución para la infección, inflamación y dolor de las uñas encarnadas.",
-      beforeImage: "/images/antes-despues/onicoantes1jpg.jpg",
-      afterImage: "/images/antes-despues/onicodespues2jpg.jpg",
+      beforeImage: "/images/antes-despues/UñaEncarnadaAntes.jpg",
+      afterImage: "/images/antes-despues/UñaEncarnadaDespués.jpg",
     },
   ]
 
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
             <div className={styles.heroImage}>
               <Image
-                src="/images/estoesloquequiero.jpg"
+                src="/images/QuiropediaCaracas.jpg"
                 alt="Servicio de Quiropedistas Tamanaco"
                 width={500}
                 height={500}

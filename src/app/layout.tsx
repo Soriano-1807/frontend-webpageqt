@@ -15,7 +15,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: 'Quiropedistas Tamanaco - Especialistas en el cuidado de tus pies',
   description: 'Centro especializado en quiropedia, podología estética y tratamientos para el bienestar de tus pies en Caracas. Agenda tu cita hoy.',
-  keywords: 'quiropedia, podología, cuidado de pies, Caracas, tratamientos podológicos, salud de pies',
+  keywords: 'quiropedia, podología, cuidado de pies, Caracas, tratamientos podológicos, salud de pies, dr scholl caracas, dr scholl, dr scholl ccct, berkemann ccct, callos, verrugas, uñas encarnadas, onicocriptosis, hongos',
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
