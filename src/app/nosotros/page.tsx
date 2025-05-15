@@ -18,47 +18,47 @@ const teamMembers = [
   {
     name: "Alirio Calderón",
     role: "Quiropedista",
-    image: "/images/nosotros/calderon2.jpg",
+    image: "/images/nosotros/QuiropedistaCalderón.jpg",
   },
   {
     name: "Francisco González",
     role: "Quiropedista",
-    image: "/images/nosotros/gonzalez2.jpg",
+    image: "/images/nosotros/QuiropedistaGonzález.jpg",
   },
   {
     name: "Rafael Meza",
     role: "Quiropedista",
-    image: "/images/nosotros/meza3.JPG",
+    image: "/images/nosotros/QuiropedistaMeza.JPG",
   },
   {
     name: "Luis Mora",
     role: "Quiropedista",
-    image: "/images/nosotros/mora1.jpg",
+    image: "/images/nosotros/QuiropedistaMora.jpg",
   },
   {
     name: "Pedro Pérez",
     role: "Quiropedista",
-    image: "/images/nosotros/perez2.jpg",
+    image: "/images/nosotros/QuiropedistaPérez.jpg",
   },
   {
     name: "Alfredo  Quintero",
     role: "Quiropedista",
-    image: "/images/nosotros/quintero2.jpg",
+    image: "/images/nosotros/QuiropedistaQuintero.jpg",
   },
   {
     name: "Luis Ramírez",
     role: "Quiropedista",
-    image: "/images/nosotros/ramirez2.jpg",
-  },
-  {
-    name: "Marvin Salcedo",
-    role: "Quiropedista",
-    image: "/images/nosotros/salcedo1.jpg",
+    image: "/images/nosotros/QuiropedistaRamírez.jpg",
   },
   {
     name: "Deybis Rodríguez",
     role: "Quiropedista",
     image: "/images/nosotros/QuiropedistaRodríguez.jpg",
+  },
+  {
+    name: "Marvin Salcedo",
+    role: "Quiropedista",
+    image: "/images/nosotros/QuiropedistaSalcedo.jpg",
   },
   {
     name: "Carmen Barrios",
@@ -68,7 +68,7 @@ const teamMembers = [
   {
     name: "María Elena Vargas",
     role: "Manicurista",
-    image: "/images/nosotros/mariaelena1.jpg",
+    image: "/images/nosotros/ManicuristaMariaElena.jpg",
   },
 ]
 
@@ -127,7 +127,7 @@ export default function NosotrosPage() {
             </div>
             <div className={styles.historyImage}>
               <Image
-                src="/images/nosotros/local3.jpeg"
+                src="/images/nosotros/QuiropedistasTamanaco.jpeg"
                 alt="Centro Quiropedistas Tamanaco"
                 width={800}
                 height={600}

@@ -79,7 +79,7 @@ export default function InformacionAdicionalPage() {
 
               <div className={styles.productsImageContainer}>
                 <Image
-                  src="/images/masinfo/productoss.jpg"
+                  src="/images/masinfo/ProductosQuiropedistasTamanaco.jpg"
                   alt="Productos para el cuidado de los pies"
                   width={400}
                   height={400}
@@ -114,7 +114,7 @@ export default function InformacionAdicionalPage() {
               </div>
               <div className={styles.infoCardImageWrapper}>
                 <Image
-                  src="/images/masinfo/petfriendlybebeagua.jpg"
+                  src="/images/masinfo/QuiropedistasTamanacoPetFriendly.jpg"
                   alt="Somos Pet Friendly"
                   width={400}
                   height={400}
@@ -248,7 +248,7 @@ export default function InformacionAdicionalPage() {
               </div>
               <div className={styles.infoCardImageWrapper}>
                 <Image
-                  src="/images/masinfo/clientelasupercool.jpg"
+                  src="/images/masinfo/ClientesQuiropedistasTamanaco.jpg"
                   alt="Atención por orden de llegada"
                   width={400}
                   height={400}
